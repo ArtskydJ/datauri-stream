@@ -17,4 +17,3 @@ module.exports = function DataUriStream(opts) {
 		return encoded
 	})
 }
-// Publish this as a module on npm
