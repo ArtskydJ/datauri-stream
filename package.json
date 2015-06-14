@@ -1,6 +1,6 @@
 {
   "name": "datauri-stream",
-  "version": "",
+  "version": "1.0.0",
   "main": "./index.js",
   "author": {
     "name": "ArtskydJ",
