@@ -17,7 +17,7 @@ var fs = require('fs')
 fs.createReadStream('./picture.jpg')
 	.pipe(DataUri())
 	.pipe(process.stdout)
-// 'data:image/png;base64,iVBORw0KGg...'
+// 'data:image/jpg;base64,iVBORw0KGg...'
 ```
 
 Use with http requests:
@@ -25,7 +25,7 @@ Use with http requests:
 var DataUri = require('datauri-stream')
 var http = require('http')
 
-http.get('http://www.google.com', function(res) {
+http.get('http://josephdykstra.com/logo.png', function(res) {
 	res.pipe(DataUri())
 		.pipe(process.stdout)
 	// 'data:image/png;base64,Vs8uZ29vZG...'
