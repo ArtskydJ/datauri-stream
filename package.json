@@ -1,0 +1,32 @@
+{
+  "name": "datauri-stream",
+  "version": "",
+  "main": "./index.js",
+  "author": {
+    "name": "ArtskydJ",
+    "email": "josephdykstra@gmail.com"
+  },
+  "description": "Lightweight data -> data URI transform stream",
+  "keywords": [
+    "data uri",
+    "data url",
+    "stream"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArtskydJ/datauri-stream"
+  },
+  "scripts": {
+    "test": "tape ./test/*.js"
+  },
+  "dependencies": {
+    "file-type": "^2.7.0",
+    "through2-map": "^1.4.0"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.4.10",
+    "got": "^3.2.0",
+    "tape": "^4.0.0",
+    "through2": "^2.0.0"
+  }
+}
