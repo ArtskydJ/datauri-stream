@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "file-type": "^2.7.0",
-    "through2-map": "^1.4.0"
+    "through2-map": "^2.0.0"
   },
   "devDependencies": {
     "concat-stream": "^1.4.10",
