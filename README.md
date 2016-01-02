@@ -86,6 +86,10 @@ With [npm](http://nodejs.org/download) do:
 
 	npm install datauri-stream
 
+# see also
+
+- [`pipe-transform-cli`](https://github.com/tobiaslabs/pipe-transform-cli) - Command line utility to pipe one input encoding to another encoding
+
 # license
 
 [VOL](http://veryopenlicense.com)
