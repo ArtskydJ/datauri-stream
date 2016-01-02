@@ -2,8 +2,6 @@ datauri-stream
 ==============
 
 [![Build Status](https://travis-ci.org/ArtskydJ/datauri-stream.svg)](https://travis-ci.org/ArtskydJ/datauri-stream)
-[![Dependency Status](https://david-dm.org/artskydj/datauri-stream.svg)](https://david-dm.org/artskydj/datauri-stream)
-[![devDependency Status](https://david-dm.org/artskydj/datauri-stream/dev-status.svg)](https://david-dm.org/artskydj/datauri-stream#info=devDependencies)
 
 Lightweight `data` ─► [`data URI`](https://en.wikipedia.org/wiki/Data_URI_scheme) transform stream.
 
