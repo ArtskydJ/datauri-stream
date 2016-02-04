@@ -25,8 +25,6 @@
   },
   "devDependencies": {
     "concat-stream": "^1.4.10",
-    "got": "^3.2.0",
-    "tape": "^4.0.0",
-    "through2": "^2.0.0"
+    "tape": "^4.0.0"
   }
 }
